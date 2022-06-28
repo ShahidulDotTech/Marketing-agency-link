@@ -66,6 +66,11 @@ class DoctorSpider(scrapy.Spider):
 
             l.add_css('name', 'h3.company_info a')
             l.add_css('href', 'a.website-link__item::attr(href)')
+            l.add_css('project_size', 'div.list-item.custom_popover:nth-child(1) span)
+            l.add_css('rate', 'div.list-item.custom_popover:nth-child(2) span)
+            l.add_css('project_size', 'div.list-item.custom_popover:nth-child(3) span)
+            l.add_css('project_size', 'div.list-item.custom_popover:nth-child(4) span)
+
 
             yield l.load_item()
 
