@@ -3,10 +3,9 @@
 Pull 25,000 data from a website of marketing agency from the USA
 
 
-# clutch-agency-link
 Here is the code for scraping the website.
 
-=======
+---
 
 
 To run the spider you have to write the below code in a linux shell
