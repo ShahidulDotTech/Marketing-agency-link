@@ -3,7 +3,6 @@
 Pull 25,000 data from a website of marketing agency from the USA
 
 
-Here is the code for scraping the website.
 
 ---
 
